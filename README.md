@@ -28,7 +28,31 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
-## Step 2. Edit the project
+## Step 2. SkillDiffuser for Call Analysis
+
+This project includes **SkillDiffuser**, a tool for analyzing donation call transcriptions to extract persuasion techniques and communication skills.
+
+### Quick Start
+
+1. Ensure your `.env` file contains your OpenAI API key:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+2. Analyze call transcriptions:
+```bash
+# Using the command line script
+python3 analyze_calls.py data/transcriptions/example_calls.txt
+
+# Or start the Flask API
+python3 app.py
+```
+
+3. View results in the generated JSON file or via API response
+
+For detailed documentation, see [SKILLDIFFUSER_README.md](SKILLDIFFUSER_README.md)
+
+## Step 3. Edit the project
 
 1. Fork the project to your own github repo.
 2. Clone the repo to your local site.
