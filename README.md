@@ -30,7 +30,7 @@ Each item has fields:
 * **endYear** (optional): End of candidature (not added for non-alumni). Alumni are arranged according to endYear in descending order.
 * **picture** (optional): Picture files should be added to ```public/alumni``` and ```public/students``` folders. This field should have the path (e.g. ```alumni/ying-lu.webp```).
 * **pictureAlt** (optional): Alt text for picture.
-* **profileUrl** (optional): Link to the student / alumni's website. If added, the student's card will be clickable and lead to the website. 
+* **profileUrl** (optional): Link to the student / alumni's website. If added, the student's card will be clickable and lead to the website.  
 
 
 # React + TypeScript + Vite
