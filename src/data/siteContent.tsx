@@ -701,6 +701,7 @@ export const workingPaperPublications: TimelinePublication[] = [
       </>
     ),
   },
+  /*
   {
     year: "",
     text: (
@@ -717,6 +718,7 @@ export const workingPaperPublications: TimelinePublication[] = [
       </>
     ),
   },
+  */
 ];
 
 export type StudentItem = {
