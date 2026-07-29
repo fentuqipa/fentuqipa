@@ -666,6 +666,7 @@ export const underReviewPublications: TimelinePublication[] = [
       </>
     ),
   },
+  /*
   {
     year: "",
     text: (
@@ -690,6 +691,7 @@ export const underReviewPublications: TimelinePublication[] = [
       </>
     ),
   },
+  */
 ];
 
 export const workingPaperPublications: TimelinePublication[] = [
