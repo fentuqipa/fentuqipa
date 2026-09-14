@@ -735,6 +735,16 @@ export type StudentItem = {
 
 export const alumniItems: StudentItem[] = [
   {
+    name: "Tong Yang",
+    description:
+      "Former: Visiting Student\nCurrent: Lecturer, The Hong Kong Polytechnic University",
+    startYear: 2022,
+    endYear: 2023,
+    picture: "alumni/tong-yang.jpg",
+    pictureAlt: "Tong Yang",
+    profileUrl: "https://directory.cpce-polyu.edu.hk/staff-directory/en/cpce/cpce-acadiv-bhm-acastf/tong-yang",
+  },
+  {
     name: "Ying Lu",
     description:
       "Former: PhD\nCurrent: Assistant Professor, IE University, Spain",
